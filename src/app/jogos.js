@@ -31,7 +31,6 @@ function edita(nome, plataforma, horas, id) {
   db.runSync("UPDATE jogo SET nome = ?, plataforma = ?, horas = ? WHERE id = ?", [nome, plataforma, horas, id]);
 }
 
-
 export default function App() {
 
   const [nome, setNome] = useState("");

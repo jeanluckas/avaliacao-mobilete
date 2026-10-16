@@ -11,12 +11,12 @@ export default function App() {
       <View style={styles.cabecalho}>
         <View style={styles.avatar} />
         <View>
-          <Text style={styles.saudacao}>Olá, Jean!</Text>
+          <Text style={styles.saudacao}>Olá, Companheiro!</Text>
         </View>
       </View>
 
       <View style={styles.cartao}>
-        <Text style={styles.cartaoTitulo}>Jogos</Text>
+        <Text style={styles.cartaoTitulo}>Meus Jogos</Text>
         <Link href="/jogos" style={styles.link}>
           Abrir →
         </Link>
